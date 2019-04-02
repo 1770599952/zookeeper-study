@@ -5,6 +5,9 @@ import org.apache.zookeeper.KeeperException;
 import org.apache.zookeeper.ZooDefs;
 import org.apache.zookeeper.ZooKeeper;
 
+/**
+ * zookeeper 创建节点示例
+ */
 public class ZKCreate {
     private static ZooKeeper zk;
     private static ZooKeeperConnection conn;

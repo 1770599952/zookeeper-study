@@ -8,6 +8,9 @@ import org.apache.zookeeper.data.Stat;
 
 import java.util.concurrent.CountDownLatch;
 
+/**
+ * zookeeper 获取节点数据
+ */
 public class ZKGetData {
     private static ZooKeeper zk;
     private static ZooKeeperConnection conn;
@@ -25,7 +28,7 @@ public class ZKGetData {
             conn = new ZooKeeperConnection();
             zk = conn.connect(host);
             Stat stat = znode_exists(path);
-
+           // watch机制官方说明：一个Watch事件是一个一次性的触发器，当被设置了Watch的数据发生了改变的时候，则服务器将这个改变发送给设置了Watch的客户端，以便通知它们。
             if (stat != null) {
                 byte[] b = zk.getData(path, new Watcher() {
 

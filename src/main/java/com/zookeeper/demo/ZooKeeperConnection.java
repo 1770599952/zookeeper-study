@@ -7,7 +7,7 @@ import org.apache.zookeeper.ZooKeeper;
 import java.util.concurrent.CountDownLatch;
 
 /**
- *  zookeeper
+ *  zookeeper 连接
  */
 public class ZooKeeperConnection {
 

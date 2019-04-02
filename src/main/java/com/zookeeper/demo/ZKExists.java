@@ -4,6 +4,9 @@ import org.apache.zookeeper.KeeperException;
 import org.apache.zookeeper.ZooKeeper;
 import org.apache.zookeeper.data.Stat;
 
+/**
+ * zookeeper 判断节点是否存在
+ */
 public class ZKExists {
     private static ZooKeeper zk;
     private static ZooKeeperConnection conn;
