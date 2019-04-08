@@ -1,7 +1,10 @@
-package com.zookeeper.demo;
+package com.zookeeper.quickstart;
 
 import org.apache.zookeeper.ZooKeeper;
 
+/**
+ * zookeeper删除节点
+ */
 public class ZkDelete {
     private static ZooKeeper zk;
     private static ZooKeeperConnection conn;
@@ -18,7 +21,6 @@ public class ZkDelete {
         try {
             conn = new ZooKeeperConnection();
             zk = conn.connect(host);
-
             conn.close();
         } catch (Exception e) {
             System.out.println(e.getMessage()); //Catch error message

@@ -1,4 +1,4 @@
-package com.zookeeper.demo;
+package com.zookeeper.quickstart;
 
 import org.apache.logging.log4j.util.Strings;
 import org.apache.zookeeper.*;

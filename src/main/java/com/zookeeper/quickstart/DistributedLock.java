@@ -1,6 +1,5 @@
-package com.zookeeper.demo;
+package com.zookeeper.quickstart;
 
-import java.util.concurrent.TimeUnit;
 
 public interface DistributedLock {
 

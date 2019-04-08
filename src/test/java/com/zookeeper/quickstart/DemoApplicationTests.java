@@ -1,4 +1,4 @@
-package com.zookeeper.demo;
+package com.zookeeper.quickstart;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

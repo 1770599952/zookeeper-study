@@ -1,4 +1,4 @@
-package com.zookeeper.demo;
+package com.zookeeper.quickstart;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.zookeeper.demo;
+package com.zookeeper.quickstart;
 
 import org.apache.zookeeper.CreateMode;
 import org.apache.zookeeper.KeeperException;

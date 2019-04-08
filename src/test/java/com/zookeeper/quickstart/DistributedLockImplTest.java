@@ -1,8 +1,6 @@
-package com.zookeeper.demo;
+package com.zookeeper.quickstart;
 
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class DistributedLockImplTest {
 
